@@ -16,6 +16,8 @@ class EmailAddressParser
   def parse
     # split(/, | /) is checking comma OR (|) space
     emails.split(/, | /).uniq
+    # emails.split(/ |, |,/).uniq
+    # split at space or comma space or comma
   end
 
 
